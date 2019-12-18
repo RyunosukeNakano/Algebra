@@ -1,0 +1,56 @@
+\documentclass[a4paper, 12pt, fleqn]{article}
+
+
+\setlength{\textheight}{\paperheight}
+\setlength{\topmargin}{-5.4truemm}
+\addtolength{\topmargin}{-\headheight}
+\addtolength{\topmargin}{-\headsep}
+\addtolength{\textheight}{-40truemm}
+
+\setlength{\textwidth}{\paperwidth}
+\setlength{\oddsidemargin}{-5.4truemm}
+\setlength{\evensidemargin}{-5.4truemm}
+\addtolength{\textwidth}{-40truemm}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{ascmac}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{latexsym}
+\usepackage{comment}
+\usepackage{afterpage}
+
+\theoremstyle{definition}
+\newtheorem{prb}{Problem}
+\title{代数学I宿題(4)}
+\author{中野竜之介\ 8310141H}
+\begin{document}
+\maketitle
+
+\begin{prb}
+    $ $
+        \begin{enumerate}
+        \item If $X,Y \in SL(2,\mathbb{R})$, $\det(XY)=1$ because $\det(XY)=\det(X)\det(Y)=1\cdot 1=1$. Therefore $XY\in SL(2,\mathbb{R})$. And since $\det(X^{-1})=(\det(X))^{-1}=1^{-1}=1$, $X^{-1}\in SL(2,\mathbb{R})$. Thus $SL(2,\mathbb{R})$ is a subgroup of $GL(2,\mathbb{R})$.
+    
+        \item Since $\det(XY)=\det(X)\det(Y)$, if $X,Y\in M$, $\det(XY)=\det(X)\det(Y) = (-1)\cdot (-1) = 1$. Therefore $XY \not \in M$. Thus $M$ is not a subgroup of $GL(2,\mathbb{R})$.  
+        
+        \item Since $\varepsilon (\tau \sigma) = \varepsilon (\tau) \varepsilon (\sigma)$ and $\varepsilon (\sigma ^{-1}) = \varepsilon (\sigma)$, if $\sigma ,\tau \in A_4$, then $\tau \sigma \in A_4$ and $\sigma ^{-1} \in A_4$ because $\varepsilon (\tau \sigma) = 1$ and $\varepsilon (\sigma ^{-1}) = \varepsilon (\sigma ) = 1$. Thus $A_4$ is a subgroup of $S_4$. 
+        
+        \item If $\sigma ,\tau \in H$, then $\tau \sigma \notin H$ because $\varepsilon(\tau \sigma) = \varepsilon (\tau)\cdot \varepsilon(\sigma) = (-1)\cdot (-1) = 1$.
+    \end{enumerate}
+\end{prb}
+
+\begin{prb}
+    $ $
+    \begin{enumerate}
+        \item $[M_1] = [4]$,
+        \item $[M_2] = [4] \cap [8] = [4]$, and
+        \item $[M_3] = [4] \cap [10] = [2]$.
+    \end{enumerate}
+\end{prb}
+
+\end{document}
