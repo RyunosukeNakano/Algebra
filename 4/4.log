@@ -1,9 +1,9 @@
-This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018/W32TeX) (preloaded format=uplatex 2018.3.17)  19 DEC 2019 04:47
+This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018/W32TeX) (preloaded format=uplatex 2018.3.17)  19 DEC 2019 05:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**c:/overall/Workspace/Tex/代数学I/4/4
-(c:/overall/Workspace/Tex/代数学I/4/4.tex
+**c:/overall/Workspace/Tex/代数学I/Algebra/4/4
+(c:/overall/Workspace/Tex/代数学I/Algebra/4/4.tex
 pLaTeX2e <2018/03/09u02>+1 (based on LaTeX2e <2017-04-15>)
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (c:/w32tex/share/texmf-dist/tex/latex/base/article.cls
@@ -220,11 +220,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 ] (./4.aux) ) 
 Here is how much of TeX's memory you used:
  1777 strings out of 493600
- 21518 string characters out of 6149783
+ 21542 string characters out of 6149783
  85029 words of memory out of 5000000
  5375 multiletter control sequences out of 15000+600000
  16109 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,8n,24p,415b,239s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 27i,8n,24p,423b,239s stack positions out of 5000i,500n,10000p,500000b,80000s
 
 Output written on 4.dvi (1 page, 2464 bytes).
