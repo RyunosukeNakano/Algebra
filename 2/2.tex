@@ -1,0 +1,75 @@
+\documentclass[a4paper, 12pt, fleqn, openany]{article}
+
+
+\setlength{\textheight}{\paperheight}
+\setlength{\topmargin}{-5.4truemm}
+\addtolength{\topmargin}{-\headheight}
+\addtolength{\topmargin}{-\headsep}
+\addtolength{\textheight}{-40truemm}
+
+\setlength{\textwidth}{\paperwidth}
+\setlength{\oddsidemargin}{-5.4truemm}
+\setlength{\evensidemargin}{-5.4truemm}
+\addtolength{\textwidth}{-40truemm}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}%花文字
+\usepackage{ascmac}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{latexsym}
+\usepackage{comment}
+\usepackage{afterpage}
+
+\theoremstyle{definition}
+\newtheorem{prb}{Problem}
+\title{代数学I宿題(2)}
+\author{中野 竜之介\\ 8310141H}
+\begin{document}
+\maketitle
+\begin{prb}
+    $ $
+    \begin{enumerate}
+        \item
+        \begin{enumerate}
+            \item The number of elements of $G$ is $n!$.
+            \item The identity element of $G$ is $I_E : E \to E;x\mapsto x$.
+        \end{enumerate}
+
+        \item
+            \begin{enumerate}
+                \item The number of elements of $G_0$ is $n^n$.
+                \item $G_0$ is not a group because the inverse mapping of $f$ doesn't exist when $f$ is not a bijection.
+            \end{enumerate}
+    \end{enumerate}
+\end{prb}
+
+\begin{prb}
+    $ $\\
+    　If $a+b$ equals $a+c$, $b$ equals $c$ by adding $-a$ from left to right
+\end{prb}
+
+\begin{prb}
+    $ $
+
+    \begin{table}[htb]
+        \begin{tabular}{|c|c|c|c|c|} \hline
+             & identity & element & inverse & associative \\ \hline \hline
+            $(\mathbb{Q},+)$ & 0 & $x$ & $-x$ & - \\ \hline
+            $(\mathbb{Z},-)$ & - & - & - & doesn't satisfy \\ \hline
+            $(\mathbb{R},\times )$ & 1 & 0 & doesn't exist & - \\ \hline
+            $(\mathbb{C}^{\times},\div)$ & - & - & - & doesn't satisfy\\ \hline
+            $(\mathbb{R}[X],+)$ & 0 & $\sum _{i=0}^n a_i X^i$ &  $\sum _{i=0}^n (-a_i) X^i$ & - \\ \hline
+            $(V,+)$ & zero vector $\mathbf{0}$ & $\mathbf{v}$ & $-\mathbf{v}$ & - \\ \hline
+            $(S_5,\circ)$ & $I : \{0,...,4\} \to \{0,...,4\} ;x\mapsto x$ & $\sigma$ &inverse mapping $\sigma ^{-1}$ & - \\ \hline
+        \end{tabular}
+      \end{table}
+      If $c\ne 0$, for all $a,b \in G$, $a-(b-c)$ doesn't equal $(a-b)-c$, therefore $(\mathbb{Z},-)$ doesn't satisfy an associative law. Hence $(\mathbb{Z},-)$ is not a group.\\
+      Since $(1\div 2)\div2 = 1/4$ and $1\div(2\div 2) = 1$, $(\mathbb{C}^{\times},\div)$ doesn't satisfy an associative law. Hence $(\mathbb{C}^{\times},\div)$ is not a group.
+\end{prb}
+
+
+\end{document}

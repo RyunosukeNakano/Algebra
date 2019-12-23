@@ -1,0 +1,67 @@
+\documentclass[a4paper, 12pt, fleqn, openany]{jsarticle}
+
+
+\setlength{\textheight}{\paperheight}
+\setlength{\topmargin}{-5.4truemm}
+\addtolength{\topmargin}{-\headheight}
+\addtolength{\topmargin}{-\headsep}
+\addtolength{\textheight}{-40truemm}
+
+\setlength{\textwidth}{\paperwidth}
+\setlength{\oddsidemargin}{-5.4truemm}
+\setlength{\evensidemargin}{-5.4truemm}
+\addtolength{\textwidth}{-40truemm}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}%花文字
+\usepackage{ascmac}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{latexsym}
+\usepackage{comment}
+\usepackage{afterpage}
+\theoremstyle{definition}
+\newtheorem{prb}{Problem}
+\title{代数学I宿題(1)}
+\author{中野 竜之介\\ 8310141H}
+\begin{document}
+\maketitle
+\begin{prb}
+    $ $
+        \begin{enumerate}
+                \item Binary operation $\circ$ on $G$ is a mapping from $G\times G$ to $G$.
+            \item $(G,\circ)$ is a group if and only if it satisfies the following conditions:
+                \begin{enumerate}
+                    %\item $\forall a,b,c\in G,a\circ(b\circ c) = (a\circ b)\circ c$.
+                    \item For all $a,b,c\in G$, $a\circ(b\circ c) = (a\circ b)\circ c$.
+                    %a,b,cは複数なのでallを使う.
+                    %\item $\exists e \in G$ s.t. $a\circ e = e \circ a = a$.
+                    \item There exists $e \in G$ such that, for every $a \in G$, $a\circ e = e \circ a = a$.
+                    %\item $\forall a \in G,\exists b \in G$ s.t. $a\circ b = b \circ a = e$.
+                    \item For each $a \in G$, there exists $b \in G$ such that $a\circ b = b \circ a = e$.
+                \end{enumerate}
+
+            In correct, the conditions (b) and (c) should be united; there exists $e\in G$ such that, for every $a\in G$, $a\circ e = e \circ a = a$ and there exists $b\in G$ such that $a\circ b = b \circ a = e$.\\
+                $ $\\
+                $(G,\circ)$ is an abelian group if and only if it satisfies the following conditions:
+                \begin{enumerate}
+                    \item $(G,\circ)$ is a group.
+                    %\item $\forall a,b\in G,a\circ b = b \circ a$.
+                    \item For all $a,b \in G$, $a\circ b = b \circ a$.
+                \end{enumerate}
+    \end{enumerate}
+\end{prb}
+
+\begin{prb}
+    $ $
+    \begin{enumerate}
+        \item Ring of rational integers $\mathbb{Z}$ is an abelian group.
+        \item General linear group $GL(n,\mathbb{C})$ is a non-abelian group.
+    \end{enumerate}
+\end{prb}
+
+
+\end{document}
