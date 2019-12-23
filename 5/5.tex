@@ -1,0 +1,61 @@
+\documentclass[a4paper, 12pt, fleqn]{article}
+
+
+\setlength{\textheight}{\paperheight}
+\setlength{\topmargin}{-5.4truemm}
+\addtolength{\topmargin}{-\headheight}
+\addtolength{\topmargin}{-\headsep}
+\addtolength{\textheight}{-40truemm}
+
+\setlength{\textwidth}{\paperwidth}
+\setlength{\oddsidemargin}{-5.4truemm}
+\setlength{\evensidemargin}{-5.4truemm}
+\addtolength{\textwidth}{-40truemm}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{ascmac}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{latexsym}
+\usepackage{comment}
+\usepackage{afterpage}
+
+\theoremstyle{definition}
+\newtheorem{prb}{Problem}
+\title{代数学I宿題(4)}
+\author{中野竜之介\ 8310141H}
+\begin{document}
+\maketitle
+
+\begin{prb}
+    $ $
+    \begin{enumerate}
+        \item Since $S_3 = \{(1),(12),(13),(23),(123),(132)\} = \{(1),(12),(13),(23),(13)(12),(12)(13)\}$, $A_3=\{(1),(123),(132)\}$.
+        \item
+            \begin{table}[htb]
+                \begin{tabular}{|c||c|c|c|}
+                    \hline
+                    - & $(1)$ & $(123)$ & $(132)$ \\ \hline \hline
+                    $(1)$ & $(1)$ & $(123)$ & $(132)$\\ \hline
+                    $(123)$ & $(123)$ & $(132)$ & $(1)$\\ \hline
+                    $(132)$ & $(132)$ & $(1)$ & $(123)$\\ \hline
+                \end{tabular}
+            \end{table}
+    \end{enumerate}
+\end{prb}
+
+\begin{prb}
+    $ $
+    \begin{enumerate}
+        \item For all $i,j\in \{1,...,n\}$ with $i\neq j$, $\zeta _n ^i \neq \zeta _n ^j$ because if $0 < x \leq \pi$, $\sin x$ and $\cos x$ are injection. And $(\zeta _n ^i)^n = (\zeta_n ^n)^i = (\cos 2\pi + i \sin 2\pi)^i = 1^i = 1$. If $k<n$, $\zeta_n ^k = \cos \frac{2k\pi}{n} + i\sin \frac{2k\pi}{n} \neq 1$. Therefore the order of $U_n$ is $n$.
+        \item $U_5 = \{1, \zeta_5 ,\zeta_5 ^2,\zeta_5 ^3,\zeta_5 ^4\} = \{1,\cos \frac{\pi}{5} + i\sin \frac{\pi}{5},\cos \frac{2\pi}{5} + i\sin \frac{2\pi}{5},\cos \frac{3\pi}{5} + i\sin \frac{3\pi}{5},\cos \frac{4\pi}{5} + i\sin \frac{4\pi}{5}\}$. Subgroups of $U_5$ are only $\{1\}$ and $U_5$ because $5$ is a prime number.
+        \item $U_6 = \{1, \zeta_6 ,\zeta_6 ^2,\zeta_6 ^3,\zeta_6 ^4,\zeta_6 ^5\} = \{1,\frac{1}{\sqrt{3}}+\frac{1}{2}i,\frac{1}{2} + \frac{1}{\sqrt{3}}i,i,-\frac{1}{2}+\frac{1}{\sqrt3}i,-\frac{1}{\sqrt{3}}+\frac{1}{2}i\}$.\\
+        Subgroups of $U_6$ are only $\{1\},\{1,\zeta_6 ^2,\zeta_6^4\},\{1,\zeta_6 ^3\}$ and $U_6$ because if $m$ and $n$ are coprime, then $m\mathbb{Z}+n\mathbb{Z} = \mathbb{Z}$.
+    \end{enumerate}
+\end{prb}
+
+\end{document}
