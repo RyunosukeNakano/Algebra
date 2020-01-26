@@ -1,0 +1,94 @@
+\documentclass[a4paper, 12pt, fleqn]{article}
+
+
+\setlength{\textheight}{\paperheight}
+\setlength{\topmargin}{-5.4truemm}
+\addtolength{\topmargin}{-\headheight}
+\addtolength{\topmargin}{-\headsep}
+\addtolength{\textheight}{-40truemm}
+
+\setlength{\textwidth}{\paperwidth}
+\setlength{\oddsidemargin}{-5.4truemm}
+\setlength{\evensidemargin}{-5.4truemm}
+\addtolength{\textwidth}{-40truemm}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{ascmac}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{latexsym}
+\usepackage{comment}
+\usepackage{afterpage}
+
+\theoremstyle{definition}
+\newtheorem{prb}{Problem}
+\title{代数学I宿題(7)}
+\author{中野竜之介\ 8310141H}
+\begin{document}
+\maketitle
+
+\begin{prb}
+    $ $
+    \begin{enumerate}
+        \item $H$ is a normal subgroup of $G$
+                $\Leftrightarrow\forall x\in G,\ \forall y \in H,\ xyx^{-1}\in H$.
+
+        \item Define a qutient group $G/H$ as follows.
+            \begin{enumerate}
+                \item set: $G/H=\{aH|\ a\in G\}$
+                \item operation: $aH\cdot bH = (ab)H$ $(a,b\in G)$.
+            \end{enumerate}
+
+        \item Let $H$ be any subgroup of $G$. Then for all $x\in G,$ $y\in H$, $xyx^{-1} = xx^{-1}y = ey = y\in H$. Therefore $H$ is a normal subgroup of $G$.
+         Since $G$ is a commutative group. Hence $aH\cdot bH=(ab)H=(ba)H=bH\cdot aH$. Therefore $G/H$ is a commutative group.
+    \end{enumerate}
+\end{prb}
+
+
+\begin{prb}
+    \begin{enumerate}
+        \item The table for $A_4$ is as follows.
+            \begin{table}[h]
+                \begin{tabular}{|c||c|c|c|c|}\hline
+                    - & $(1)$ & $(12)(34)$ & $(13)(24)$ & $(14)(23)$ \\ \hline \hline
+                    $(1)$ & $(1)$ & $(12)(34)$ & $(13)(24)$ & $(14)(23)$ \\ \hline
+                    $(12)(34)$ & $(12)(34)$ & $(1)$ & $(14)(23)$ & $(13)(24)$\\ \hline
+                    $(13)(24)$ & $(13)(24)$ & $(14)(23)$ & $(1)$ & $(12)(34)$\\ \hline
+                    $(14)(23)$ & $(14)(23)$ & $(13)(24)$ & $(12)(34)$ & $(1)$\\ \hline
+                \end{tabular}
+            \end{table}
+
+            Because of the table, $A_4$ is a subgroup of $V_4$.
+
+        \item Since $S_4=[(12),(13),(14),(23),(24),(34)]$, the table as follow where $(i,j)$ is $\sigma _i \sigma _j \sigma _i ^{-1}$.
+        \begin{table}[h]
+            \begin{tabular}{|c||c|c|c|c|}\hline
+                - & $(1)$ & $(12)(34)$ & $(13)(24)$ & $(14)(23)$ \\ \hline \hline
+                $(12)$ & $(1)$ & $(12)(34)$ & $(14)(23)$ & $(13)(24)$ \\ \hline
+                $(13)$ & $(1)$ & $(14)(23)$ & $(13)(24)$ & $(12)(34)$\\ \hline
+                $(14)$ & $(1)$ & $(13)(24)$ & $(12)(34)$ & $(14)(23)$\\ \hline
+                $(23)$ & $(1)$ & $(13)(24)$ & $(12)(34)$ & $(14)(23)$\\ \hline
+                $(24)$ & $(1)$ & $(14)(23)$ & $(13)(24)$ & $(12)(34)$\\ \hline
+                $(34)$ & $(1)$ & $(12)(34)$ & $(14)(23)$ & $(13)(24)$\\ \hline
+            \end{tabular}
+        \end{table}
+
+
+        \item The table for $A_4 /V_4$ as follow.
+        \begin{table}[h]
+            \begin{tabular}{|c||c|c|c|}\hline
+                - & $V_4$  & $(123)V_4$ & $(132)V_4$ \\ \hline  \hline
+                $V_4$      & $V_4$      & $(123)V_4$ & $(132)V_4$ \\ \hline
+                $(123)V_4$ & $(123)V_4$ & $(132)V_4$ & $V_4$ \\ \hline
+                $(132)V_4$ & $(132)V_4$ & $V_4$      & $(123)V_4$ \\ \hline
+            \end{tabular}
+        \end{table}
+
+    \end{enumerate}
+\end{prb}
+
+\end{document}
