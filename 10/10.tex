@@ -1,0 +1,61 @@
+\documentclass[a4paper, 12pt, fleqn]{article}
+
+
+\setlength{\textheight}{\paperheight}
+\setlength{\topmargin}{-5.4truemm}
+\addtolength{\topmargin}{-\headheight}
+\addtolength{\topmargin}{-\headsep}
+\addtolength{\textheight}{-40truemm}
+
+\setlength{\textwidth}{\paperwidth}
+\setlength{\oddsidemargin}{-5.4truemm}
+\setlength{\evensidemargin}{-5.4truemm}
+\addtolength{\textwidth}{-40truemm}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{ascmac}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{latexsym}
+\usepackage{comment}
+\usepackage{afterpage}
+
+\theoremstyle{definition}
+\newtheorem{prb}{Problem}
+\newtheorem{thm}{Theorem}
+\newtheorem*{thm*}{Theorem}
+
+\newcommand{\image}[1]{{\rm Im\ }#1}
+\newcommand{\kernel}[1]{{\rm Ker\ }#1}
+
+
+
+\title{代数学I宿題(10)}
+\author{中野竜之介\ 8310141H}
+\begin{document}
+\maketitle
+
+\begin{prb}
+    $ $
+    \begin{enumerate}
+
+        \item Let $\pi $ be a plane and $F$ be a regular $n$-sided polygon. Then define $D_n = \{\phi :\pi \to \pi |\ \phi : {\rm motion\ with\ }\phi (F) = F\}$.\\
+         Let $\{a_1,...,a_n\}$ denote the vertices of the regular $n$-sided polygon. Since any element in $D_n$ is a motion, for any $\sigma \in D_n$, it will be regarded as a permutation of the vertices. Therefore $D_n$ is a subgroup of $S_n$.
+
+        \item
+            \begin{enumerate}
+                \item Since $\# D_n = 2n$, $\# D_4 = 8$.
+                \item $D_4$ is isomorphic to $[(1234),(24)]$. Since $(1234)(24)=(14)(23)$ and $(24)(1234) = (12)(34)$, $D_4$ is not a non-commutative group.
+            \end{enumerate}
+
+        \item $D_3$ is isomorphic to $[(123),(13)]$. And since $S_3 = [(123),(13)]$, $D_3$ is isomorphic to $S_3$.
+    \end{enumerate}
+\end{prb}
+
+
+
+\end{document}
